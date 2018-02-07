@@ -13,9 +13,11 @@ public class MainActivity extends AppCompatActivity {
 
         String name;
         int age;
+        String hobby;
         name = "";
         age = 0;
-        Human humanbeing = new Human(name,age);
-        humanbeing.think();
+        hobby = "";
+        Human human = new Human(name,age,hobby);
+        human.think();
     }
 }
